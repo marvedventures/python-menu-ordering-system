@@ -18,46 +18,6 @@ menu = {
 }
 
 
-# SUBTOTAL
-def calculate_subtotal(order):
-
-    print('Calculating bill subtotal...')
-
-    sub_total = 0
-    for item in order:
-        sub_total += item['price']
-    return round(sub_total, 2)
-
-
-# TAX
-def calculate_tax(subtotal):
-
-    print('Calculating tax from subtotal...')
-
-    return round(subtotal * 15 / 100.00, 2)
-
-
-# SUMMARIZE ORDER
-def summarize_order(order):
-
-    print_order(order)
-
-    subtotal = calculate_subtotal(order)
-    tax = calculate_tax(subtotal)
-    total = round(subtotal + tax, 2)
-    names = [item['name'] for item in order]
-    return names, total
-
-
-# PRINT ORDER
-def print_order(order):
-    print('You have ordered ' + str(len(order)) + ' items')
-    items = []
-    items = [item['name'] for item in order]
-    print(items)
-    return order
-
-
 # DISPLAY MENU
 def display_menu():
     print('------- Menu -------')
@@ -81,9 +41,45 @@ def take_order():
     return order
 
 
+# PRINT ORDER
+def print_order(order):
+    print('\n')
+    print('You have ordered ' + str(len(order)) + ' items')
+    items = []
+    items = [item['name'] for item in order]
+    print(items)
+    return order
+
+
+# SUBTOTAL -> will return the bill subtotal
+def calculate_subtotal(order):
+    print('\n')
+    print('Calculating bill subtotal...')
+    sub_total = 0
+    for item in order:
+        sub_total += item['price']
+    return round(sub_total, 2)
+
+
+# TAX -> will return the tax value
+def calculate_tax(subtotal):
+    print('\n')
+    print('Calculating tax from subtotal...')
+    return round(subtotal * 15 / 100.00, 2)
+
+
+# SUMMARIZE ORDER
+def summarize_order(order):
+    print_order(order)
+    subtotal = calculate_subtotal(order)
+    tax = calculate_tax(subtotal)
+    total = round(subtotal + tax, 2)
+    names = [item['name'] for item in order]
+    return names, total
+
+
 # INVOKE FUNCTIONS
 def main():
-
     order = take_order()
     print_order(order)
 
