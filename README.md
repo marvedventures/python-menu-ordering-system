@@ -33,6 +33,11 @@ This is a Python Menu Ordering System using functions, loops and data structures
 3. Run the program — python main.py
 
 ### Screenshot
+![image](https://user-images.githubusercontent.com/108392678/236617623-87deb45c-ab8b-4b04-b94b-a77a89169ccd.png)
+![image](https://user-images.githubusercontent.com/108392678/236617635-151b8749-dc75-4e7c-b5a0-f273abbd9c00.png)
+![image](https://user-images.githubusercontent.com/108392678/236617643-c009cfb6-3e5d-42a2-8156-75060c4c10b8.png)
+
+
 
 ### Links
 
