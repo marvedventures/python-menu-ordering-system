@@ -111,7 +111,7 @@ def print_order(order):
 
 ### Useful resources
 
-- [W3Schools Python Tutorial](https://www.python.org/) - This helped me use python functions, loops and data structures, f strings, padding strings using formatting specifier (:)
+- [W3Schools Python Tutorial](https://www.w3schools.com/python/) - This helped me use python functions, loops and data structures, f strings, padding strings using formatting specifier (:)
 - [Pipenv Setup](https://python.plainenglish.io/setting-up-a-basic-django-project-with-pipenv-7c58fa2ec631) - This helped me setup my python virtual env
 
 ## Author
