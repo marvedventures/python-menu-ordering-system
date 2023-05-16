@@ -40,7 +40,7 @@ This is a Python Menu Ordering System using functions, loops and data structures
 
 ### Links
 
-- Github: [Code](https://github.com/marvedventures/python-menu-ordering-system)
+- Github: [Code](https://github.com/marventures/python-menu-ordering-system)
 
 ## My process
 
@@ -117,5 +117,5 @@ def print_order(order):
 ## Author
 
 - Website - [Marvin Morales Pacis](https://marvin-morales-pacis.vercel.app/)
-- LinkedIn - [@marvedventures](https://www.linkedin.com/in/marvedventures/)
-- Twitter - [@marvedventures](https://www.twitter.com/marvedventures)
+- LinkedIn - [@marventures](https://www.linkedin.com/in/marventures/)
+- Twitter - [@marventures11](https://www.twitter.com/marventures11)
